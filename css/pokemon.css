@@ -1,0 +1,48 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p:before{
+    content: attr(type);
+
+}
+
+.cuadro {
+    text-align: center;
+    border-style: dashed;
+    border-width: 2px;
+    border-radius: 8px ;
+    padding: 0px 5px 0px 5px;
+    display: inline-block;
+    border-color: blue;
+    margin-bottom: 15px ;
+}
+
+img{
+    width: 290px;
+    height: auto;
+    border: solid yellow;
+    }
+
+.boton{
+    display: grid;
+    grid-template-columns: 250px;
+    justify-content: center;
+    background-color: rgb(244, 240, 240);
+    padding: 5px;
+
+}
+button{
+    border: 1px solid ;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px ;
+    background-color: white;
+    border-color: rgb(201, 197, 197);
+    padding: 2px;
+
+}
+
+
